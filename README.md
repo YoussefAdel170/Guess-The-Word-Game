@@ -4,7 +4,7 @@ A fun and interactive "Guess The Word" game where players try to guess a hidden 
 
 ## Live Demo:
 
-https://yousifadel170.github.io/Guess-The-Word-Game/
+https://youssefadel170.github.io/Guess-The-Word-Game/
 
 ## Game Features
 
