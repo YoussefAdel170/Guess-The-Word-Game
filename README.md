@@ -1,81 +1,82 @@
-# Guess-The-Word-Game
+# 📝 Guess-The-Word Game
 
-A fun and interactive "Guess The Word" game where players try to guess a hidden word within a limited number of attempts. This game is built with vanilla JavaScript, HTML, and CSS, making it a lightweight yet engaging browser-based word puzzle.
+A fun and interactive browser-based "Guess The Word" game where players try to guess a hidden word within a limited number of attempts. Built with **vanilla JavaScript, HTML, and CSS**, this lightweight game offers an engaging word puzzle experience.
 
-## Live Demo:
+## 🔗 Live Demo
 
-https://youssefadel170.github.io/Guess-The-Word-Game/
+[Play Guess-The-Word Online](https://youssefadel170.github.io/Guess-The-Word-Game/)
 
-## Game Features
+---
 
-### Word Guessing Mechanics:
+## 🎯 Game Features
 
-Players have a fixed number of tries to guess a six-letter word. After each attempt, letters are color-coded to provide hints:
+### Word Guessing Mechanics
 
-#### - Green
+- Players have a fixed number of tries to guess a six-letter word.
+- Letters are color-coded after each attempt to provide hints:
+  - **🟩 Green:** Correct letter in the correct position
+  - **🟨 Yellow:** Correct letter in the wrong position
+  - **🟥 Red:** Incorrect letter
 
-indicates that the letter is correct and in the correct position.
+### Hints
 
-#### - Yellow
+- Reveal one letter using hints.
+- Limited hints available; using a hint decreases your remaining tries.
 
-indicates that the letter is correct but in the wrong position.
+### User-Friendly Input
 
-#### - Red
+- Auto-focus moves to the next input box as players type.
+- Arrow key navigation and backspace handling across inputs.
 
-indicates an incorrect letter.
+### Restart Functionality
 
-### Hints:
+- Start a new game after winning or losing with a different word.
 
-Players can use hints to reveal one of the letters of the word. The number of hints is limited, and each hint decreases the remaining count.
+---
 
-### User-Friendly Input System:
+## 🕹 How to Play
 
-Inputs are automatically focused, moving to the next input box as the player types. The game also allows navigation with arrow keys and handles backspacing smoothly across inputs.
+1. **Enter Your Guess:** Type one letter in each box to form a word.
+2. **Submit the Guess:** Click the "Check" button.
+3. **Use Hints Wisely:** Click the "Hint" button to reveal a letter (limited uses).
+4. **Win or Try Again:** Guess the word within allowed attempts to win; otherwise, the correct word is revealed.
 
-### Restart Functionality:
+---
 
-After winning or losing, players can start a new game with a different word by clicking the restart button.
+## 🛠 Built With
 
-## How to Play
+- **JavaScript:** Game logic, input handling, validations, hints, win/lose conditions
+- **HTML & CSS:** Responsive layout and styling
 
-### 1. Enter Your Guess:
+---
 
-Type one letter in each box to form a word.
+## 🚀 Getting Started
 
-### 2. Submit the Guess:
+### Prerequisites
 
-Click the "Check" button to submit your guess.
+- Any modern web browser
 
-### 3. Use Hints Wisely:
+### Installation
 
-Click the "Hint" button to reveal a letter (limited uses).
+1. Clone the repository:
 
-### 4. Win or Try Again:
-
-If you guess the word within the allowed attempts, you win! Otherwise, the correct word will be revealed after all attempts.
-
-## Built With
-
-### JavaScript:
-
-Game logic for input handling, validations, hint system, and win/lose conditions.
-
-### HTML & CSS:
-
-Simple, responsive layout and styling.
-
-## Project Setup
-
-### 1. Clone the repository:
-
+```bash
 git clone git@github.com:YousifAdel170/Guess-The-Word-Game.git
+```
 
-### 2. Open the index.html file in your browser to start playing the game.
+2. **Navigate into the project directory**
+   ```bash
+   cd Guess-The-Word-Game
+   ```
+3. Open **index.html** in your browser.
 
-## Future Improvements
+### 📸 Screenshots
 
-### Add more challenging words.
+- **Game:**  
+  ![Game](./screenshots/game.jpg)
 
-### Implement different difficulty levels.
+- **Win:**  
+  ![Win](./screenshots/win.jpg)
 
-### Add animations or sound effects to enhance the gaming experience.
+- **Lose:**  
+  ![Lose](./screenshots/lose.jpg)
